@@ -1,0 +1,11 @@
+{
+  "validApplication": {
+    "email": "qa.framework@example.test",
+    "age": "30"
+  },
+  "invalidApplication": {
+    "email": "not-an-email",
+    "age": "17"
+  }
+}
+

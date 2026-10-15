@@ -1,0 +1,17 @@
+node_modules/
+.npm-cache/
+playwright-report/
+playwright-reports/**
+!playwright-reports/.gitkeep
+test-results/
+tests-results/**
+!tests-results/.gitkeep
+logging/*.log
+.env
+.env.*
+!.env.example
+playwright/.auth/
+coverage/
+*.zip
+*.trace
+

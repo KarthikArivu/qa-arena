@@ -1,0 +1,23 @@
+{
+  "qa": {
+    "name": "qa",
+    "baseURL": "https://qa-automation-arena-karthik-personal-project.vercel.app",
+    "apiBaseURL": "https://qa-automation-arena-karthik-personal-project.vercel.app",
+    "timeoutMs": 30000,
+    "expectTimeoutMs": 7000
+  },
+  "staging": {
+    "name": "staging",
+    "baseURL": "https://qa-automation-arena-karthik-personal-project.vercel.app",
+    "apiBaseURL": "https://qa-automation-arena-karthik-personal-project.vercel.app",
+    "timeoutMs": 30000,
+    "expectTimeoutMs": 7000
+  },
+  "development": {
+    "name": "development",
+    "baseURL": "https://qa-automation-arena-karthik-personal-project.vercel.app",
+    "apiBaseURL": "https://qa-automation-arena-karthik-personal-project.vercel.app",
+    "timeoutMs": 30000,
+    "expectTimeoutMs": 7000
+  }
+}

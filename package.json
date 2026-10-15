@@ -1,0 +1,26 @@
+{
+  "name": "javascript-playwright-automation-framework",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interview-ready JavaScript Playwright UI and API automation framework",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test tests/UI --project=chromium",
+    "test:api": "playwright test tests/API --project=api",
+    "test:e2e": "playwright test tests/E2E --project=chromium",
+    "test:all": "playwright test",
+    "test:headed": "playwright test --project=chromium --headed",
+    "test:debug": "playwright test --debug",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "report": "playwright show-report playwright-reports/html"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
+
